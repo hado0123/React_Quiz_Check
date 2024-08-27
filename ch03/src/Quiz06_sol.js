@@ -1,0 +1,17 @@
+import React, { useState } from 'react';
+
+
+function Quiz06_sol() {
+    const [count, setCount] = useState(0)
+
+    return (  
+        <div>
+            <p>카운트: { count }</p>
+            <button onClick={() => setCount(count + 1)}>
+                1씩 증가
+            </button>
+        </div>
+    );
+}
+
+export default Quiz06_sol;
