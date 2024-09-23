@@ -1,3 +1,5 @@
+import React, { useState } from 'react'
+
 function Quiz02() {
    return (
       <div>
