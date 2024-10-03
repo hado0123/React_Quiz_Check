@@ -1,6 +1,19 @@
 import React, { useState } from 'react'
 
 function Quiz02() {
+   const [form, setForm] = useState({
+      username: '',
+      message: '',
+   })
+
+   const { username, message } = form
+
+   const onChange = (e) => {}
+
+   const onClick = () => {}
+
+   const onKeyDown = (e) => {}
+
    return (
       <div>
          <h1>이벤트 연습</h1>
