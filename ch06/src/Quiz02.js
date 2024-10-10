@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react'
 
-function Quiz01() {
+function Quiz02() {
    useEffect(() => {
-      console.log('Effect triggered')
-   }, [])
+      console.log('Component rendered')
+   })
 
    return <div>Hello World</div>
 }
 
-export default Quiz01
+export default Quiz02
