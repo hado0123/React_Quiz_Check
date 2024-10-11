@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react'
+import React, { useState } from 'react'
 
 function Quiz05() {
    const [number, setNumber] = useState(0)
