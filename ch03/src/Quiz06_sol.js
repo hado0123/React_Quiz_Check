@@ -8,7 +8,14 @@ function Quiz06_sol() {
    return (
       <div>
          <p>카운트: {count}</p>
-         <button onClick={() => setCount(count + 1)}>1씩 증가</button>
+         <button
+            onClick={() => {
+               setCount(count + 1)
+               //setCount(count++) // count = count + 1 -> 증감연산자는 count값 자체를 바꾸므로 사용할수 X(count는 const로 선언되어있음) -> count는 setCount함수를 이용해서 바꾸면 된다
+            }}
+         >
+            1씩 증가
+         </button>
       </div>
    )
 }
