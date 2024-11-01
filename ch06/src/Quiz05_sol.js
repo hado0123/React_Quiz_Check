@@ -24,7 +24,7 @@ function Quiz05_sol() {
    return (
       <div>
          <input type="text" value={number} onChange={(e) => setNumber(Number(e.target.value))} />
-         <p style={{ color }}>입력한 숫자는 {isEven ? '짝수' : '홀수'}입니다.</p>
+         <p style={{ color }}>입력한 숫자는 {even ? '짝수' : '홀수'}입니다.</p>
          <button
             onClick={() => {
                setColor('red')
